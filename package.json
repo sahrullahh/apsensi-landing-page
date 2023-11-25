@@ -1,0 +1,23 @@
+{
+  "name": "apsensi-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahrullahh/apsensi-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahrullahh/apsensi-landing-page/issues"
+  },
+  "homepage": "https://github.com/sahrullahh/apsensi-landing-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
