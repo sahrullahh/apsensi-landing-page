@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Apsensi - Landing page</title>
+    <link
+      rel="icon"
+      href="./assets/images/preloader.svg"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./assets/css/style.css"
+    />
+  </head>
+  <body>
+    <header class="font-plus-jakarta-sans sticky top-0 border-b w-full">
+      <div class="container mx-auto">
+        <div class="flex justify-between p-4">
+          <div class="logo-brand">
+            <div class="flex gap-2 flex-row">
+              <img
+                src="./assets/images/preloader.svg"
+                alt="logo-brand"
+                class="w-8"
+              />
+              <label
+                for=""
+                class="font-bold mt-1 ml-3 text-2xl font-quicksand"
+                >Apsensi</label
+              >
+            </div>
+          </div>
+          <div class="lg:hidden block">
+            <button
+              class="flex gap-4 px-5 py-2 font-semibold bg-[#6500FD] rounded-md text-white"
+            >
+              <span class="mt-[2px]">
+                <iconify-icon
+                  class="text-2xl"
+                  icon="icon-park-outline:hamburger-button"
+                ></iconify-icon>
+              </span>
+              <span class="mt-[2px]"> Menu </span>
+            </button>
+          </div>
+          <div class="menu lg:block hidden">
+            <ul class="flex gap-7">
+              <li class="p-2">
+                <a href="#">Home</a>
+              </li>
+              <li class="p-2">
+                <a href="#">About</a>
+              </li>
+              <li class="p-2">
+                <a href="#">Service</a>
+              </li>
+              <li class="">
+                <a
+                  href="#"
+                  class="px-5 py-2 flex gap-5 font-semibold bg-blue-500 rounded-md text-white"
+                >
+                  <span>
+                    <iconify-icon
+                      icon="fluent:contact-card-28-regular"
+                      class="text-lg mt-[3px]"
+                    ></iconify-icon>
+                  </span>
+                  <span> Contact</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container mx-auto h-[50vh]">
+        <div class="flex text-center gap-5 justify-center w-full p-10">
+          <div class="w-full space-y-5">
+            <div class="flex justify-center mt-28">
+              <span class="flex text-center justify-center gap-2 w-full">
+                <span>
+                  <iconify-icon
+                    icon="charm:rocket"
+                    class="text-blue-500"
+                  ></iconify-icon>
+                </span>
+                <p
+                  class="text-lg text-gray-500 font-semibold font-plus-jakarta-sans"
+                >
+                  Kick start your project with
+                </p>
+              </span>
+            </div>
+            <h2
+              class="text-6xl text-primary-text tracking-tighter font-plus-jakarta-sans font-bold mx-auto max-w-[800px] leading-tight"
+            >
+              Most powerful &
+              <b class="text-blue-500">Developer friendly</b> dashboard
+            </h2>
+            <p
+              class="max-w-[500px] mx-auto text-gray-400 font-plus-jakarta-sans tracking-tight text-lg"
+            >
+              Modernize comes with light & dark color skins, well designed
+              dashboards, applications and pages.
+            </p>
+            <div class="button-wrapper space-x-5">
+              <button
+                class="px-8 py-3 bg-white border rounded-md text-blue-500 font-plus-jakarta-sans font-semibold border-blue-500"
+              >
+                Login
+              </button>
+              <button
+                class="px-8 py-3 bg-blue-500 border rounded-md text-white font-plus-jakarta-sans font-semibold border-blue-500"
+              >
+                Live Preview
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</html>
